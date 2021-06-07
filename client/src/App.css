@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App {
+  text-align: center;
+ 
+  
+}
+html, body {
+  max-width: 100%;
+  /* overflow-x: auto;
+  overflow-y: auto; */
+}
+
+.About{
+  overflow-y: hidden;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .myapp{
+  
+  margin-left: 100px;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 78px;
+  color:red
+
+} */
+::placeholder {
+  color: rgb(170, 170, 170);
+}
+body{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+  background-color: #fafafa
+  /* background-image:url(background.jpg); */
+  
+  }
+  .sign-up-form{
+  background-color: #ffffff;
+  width:600px;
+  height:10px;
+  /* box-shadow:0 0 3px 0 rgba(0,0,0,0.3); */
+  padding : 20px;
+  margin: 8% auto 0;
+  text-align:center;
+  box-shadow:2px 2px 5px 5px #ebebeb;
+ 
+  }
+  
+  
+  /* .sign-up-form h1{
+  color:#4db5ff;
+  margin-bottom:-10px;
+  } */
+  .input-box{
+  /* border-radius:20px; */
+  background-color: #f6f6f6;
+  padding:10px;
+  margin:10px -15px;
+  width:100%;
+  border:1px solid rgb(200, 200, 200);
+  outline:none;
+  }
+  button{
+  color:rgb(255, 255, 255);
+  background-color:rgb(41, 130, 246);
+  width: 27%;
+  border-radius:2.5px;
+  font-size:18px;
+  padding: 7px 7px 7px 7px ;
+  margin-top: 5em;
+  margin-left: 0.6em;
+  border:none;
+  outline:none;
+  cursor:pointer;
+  }
+ 
+  
+  
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "cd server && nodemon start",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"nodemon server\" \"npm rum client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "mongoose-auto-increment": "^5.0.1",
+    "nodemon": "^2.0.7",
+    "router": "^1.3.5"
+  }
+}
