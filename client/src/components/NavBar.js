@@ -21,7 +21,7 @@ const Navbar = () => {
     return (
        <AppBar className={classes.header} position="static">
            <Toolbar>
-<NavLink style={{marginRight:"63rem"}} className={classes.tabs} to = "/">MERN_CRUD </NavLink>
+<NavLink style={{marginRight:"46rem"}} className={classes.tabs} to = "/">MERN_CRUD </NavLink>
 <NavLink style={{marginRight:"1rem"}}className={classes.tabs} to = "/allusers">All_Users </NavLink>
 <NavLink className={classes.tabs } to = "/addusers">Add_Users </NavLink>
 
